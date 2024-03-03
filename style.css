@@ -1,0 +1,144 @@
+:root {
+    --darkcyan:hsl(158, 36%, 37%);
+    --cream:hsl(30, 38%, 92%);
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --hover:(#1A4031);
+}
+
+
+*{
+    margin: 0px auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: var(--cream);
+}
+
+
+.main-cont{
+    margin-top: 100px;
+    width: 600px;
+    height: 450px;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #cfcece, #f6f5f5);
+    box-shadow:  5px 5px 36px #afaeae,
+             -5px -5px 36px #ffffff;
+    display: flex;
+    background-color: var(--White);
+}
+
+.left{
+    width: 50%;
+}
+.left img{
+    width: 100%;
+    border-radius: 15px 0px 0px 15px;
+}
+.right{
+    width: 50%;
+    padding: 20px 30px 0px 30px;
+    background-color: var(--White);
+    border-radius:0px 15px 15px 0px ;
+}
+
+header{
+    height: 20px;
+    padding-bottom: 10px;
+    font-family:  'Barlow', sans-serif;
+}
+
+header h3{
+    font-weight: 300;
+    font-family:  'Barlow', sans-serif;
+    letter-spacing: 0.5rem;
+    font-size: 14px;
+    color: var(--Darkgrayishblue);
+}
+
+
+main h1{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 20px 0px;
+    font-family: 'Fraunces', serif;
+    color: var(--Verydarkblue);
+}
+
+main p {
+    line-height: 1.5;
+    font-size: 17px;
+    text-align: justify;
+    font-weight: 300;
+    font-family:  'Barlow', sans-serif;
+    color: var(--Darkgrayishblue);
+
+}
+
+footer {
+    height: 130px;
+    padding: 20px 0px;
+    
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+    
+}
+.price-off{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    }
+
+.price-off h1{
+    font-size: 30px;
+    color: var(--darkcyan) ;
+}
+
+.price-real{
+    padding-right: 30px;
+}
+
+.price-real p{
+    text-decoration: line-through;
+    color: var(--Darkgrayishblue);
+}
+
+.add-to-card{
+    background-color: var(--darkcyan);
+    width: 235px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 43px;
+   
+    
+}
+
+.add-to-card p {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--White);
+}
+
+.add-to-card img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.add-to-card:hover{
+    background-color:#1A4031;
+}
